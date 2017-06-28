@@ -2,31 +2,24 @@
     <html>
         <head>
             <title>{{ page.title }}</title>
-            <!-- link to main stylesheet -->
+            
             <link rel="stylesheet" type="text/css" href="/css/main.css">
-            <script type="text/javascript"
-                src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-            </script>
+            
+            <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+            <script type="text/x-mathjax-config">
+                MathJax.Hub.Config({
+                    tex2jax: {
+                        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                        processEscapes: true
+                    }
+                });
+           </script>
+           <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
         </head>
+        
         <body>
-            <!-- <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/cv">CV</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                </ul>
-             --></nav>
             <div class="container">
-            
             {{ content }}
-            
-            </div><!-- /.container -->
-            <!-- <footer>
-                <ul>
-                    <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-                    <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-                </ul>
-            </footer> -->
+            </div>
         </body>
     </html>
