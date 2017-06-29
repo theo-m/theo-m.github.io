@@ -4,11 +4,11 @@ title: "word embeddings 1: what"
 date: 2017-06-29
 ---
 
+<iframe width="480" height="280" src="https://www.youtube.com/embed/_K-L9uhsBLM" frameborder="0" allowfullscreen></iframe>
+
 Word embeddings, _a.k.a._ vector space models for words, are a convenient way to represent words as vectors.
 
-```
-dog = [1, 2, 0, ..., -4, 0]
-```
+> ` dog = [1, 2, 0, ..., -4, 0] `
 
 They've been around since the 80s, but they've always been seen as a nice but computationally expensive trick. 
 

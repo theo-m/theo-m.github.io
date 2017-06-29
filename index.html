@@ -5,12 +5,10 @@ title: theo-m
 <div class="blurb">
 
     <h1>{{ page.title }}</h1>
-    <p><a href="https://twitter.com/theo_mtsr">twitter</a></p>
-    <p><a href="https://plus.google.com/u/0/109209030380654137111">google</a></p>
-
+    
     <ul class="posts">
       {% for post in site.posts %}
-        <li><span style="font-family: monospace;">{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}" style="font-family: monospace;">{{ post.title }}</a></li>
+        <li><span style="font-family: monospace;">{{ post.date | date_to_string }}:  </span> <a href="{{ post.url }}" title="{{ post.title }}" style="font-family: monospace;">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
 
