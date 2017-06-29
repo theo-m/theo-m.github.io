@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "word embeddings (i)"
+title: "word embeddings 1: what"
 date: 2017-06-29
 ---
 
@@ -10,9 +10,14 @@ Word embeddings, _a.k.a._ vector space models for words, are a convenient way to
 dog = [1, 2, 0, ..., -4, 0]
 ```
 
-They've been around since the 80s, but they've always been seen just a cool but computationally expensive trick. 
+They've been around since the 80s, but they've always been seen as a nice but computationally expensive trick. 
 
-The big idea is to learn from a corpus a certain idea of how words cooccur with other words on the basis of a certain relationship. This relationship is commonly distance, _i.e._ we're going to count a cooccurence when the two words appear at distance less than a parameter \\( k \\). Some people have tried to count based on more sophisticated relationships, like syntaxical dependencies.
+The big idea is to learn from a corpus a certain idea of how words cooccur with other words on the basis of a certain relationship. Now comes the mandatotry quote that sums up the distributional semantics hypothesis:
+
+> A word is characterized by the company it keeps.
+>> _John R. Firth_
+
+This relationship is commonly distance, _i.e._ we're going to count a cooccurence when the two words appear at distance less than \\( k \\), where usually \\(2 \lt k \lt 10\\). Some people have tried to count based on more sophisticated relationships, like syntaxical dependencies.
 
 Once we have counted all these cooccurences, we put them in a big square matrix:
 
@@ -26,6 +31,14 @@ This process, with all its possible modificationd, is qualified as **count-based
 
 ---
 
-In 2013 Tomas Mikolov published two papers which offered a new way to compute these word vectors. He named his technique Word2Vec and released his [code](https://github.com/tmikolov/word2vec). While count-based methods would mean days or weeks of computation, Mikolov's ran in a few hours, with word embeddings of great **quality** (a vague notion that I will talk about in a post to come).
+In 2013 Tomas Mikolov published two papers which offered new ways to compute these word vectors. He named both of his techniques Word2Vec and released his [code](https://github.com/tmikolov/word2vec). While count-based methods would mean days or weeks of computation, Mikolov's ran in a few hours, with word embeddings of great _quality_ (a vague notion that I will talk about in a post to come).
 
 His method and those that followed are called **predictive**. Some affiliate them with Deep Learning, which it is not since there's barely one hidden layer in the network.
+
+Mikolov's two methods are called Continuous Bag Of Words (CBOW) and Skip-Gram (SG), they are called predictive because:
+
+* CBOW tries to guess a word at the center of a window: `the cat .. the mat`,
+* SG does the opposite, it tries to guess the window for a given word: `.. .. on .. ..`.
+
+He built on two papers presenting new techniques for neural networks: __hierarchical softmax__, a complex method to compute softmaxs in \\(\mathcal{O}(\log n)\\) time, and __noise contrastive estimation__, _a.k.a._ negative sampling.
+
