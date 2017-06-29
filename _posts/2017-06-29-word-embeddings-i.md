@@ -14,8 +14,7 @@ They've been around since the 80s, but they've always been seen as a nice but co
 
 The big idea is to learn from a corpus a certain idea of how words cooccur with other words on the basis of a certain relationship. Now comes the mandatotry quote that sums up the distributional semantics hypothesis:
 
-> A word is characterized by the company it keeps.
->> _John R. Firth_
+> _A word is characterized by the company it keeps._ -- J. Firth
 
 This relationship is commonly distance, _i.e._ we're going to count a cooccurence when the two words appear at distance less than \\( k \\), where usually \\(2 \lt k \lt 10\\). Some people have tried to count based on more sophisticated relationships, like syntaxical dependencies.
 

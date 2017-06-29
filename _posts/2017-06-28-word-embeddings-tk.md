@@ -10,7 +10,9 @@ Resources on word embeddings are plentiful, but most overlap and it can be hard 
 ### Papers
 
 
-You can see my bibliography in bibtex format [here](/report.bib). I also maintain a Google Spreadsheet that helps me keep my sanity, you can find it [here](https://docs.google.com/spreadsheets/d/1UR2J7MvkZ5xuGmp7l0F6hMJoEWjWhYsC0JCCWnUfZe4/edit?usp=sharing). (That was before finding out about Mendeley, which seems like a good tool. I'm keeping the spreadsheet though as I have gotten used to it.)
+You can see my bibliography in bibtex format [here](/files/report.bib).  
+I also maintain a Google Spreadsheet that helps me keep my sanity, you can find it [here](https://docs.google.com/spreadsheets/d/1UR2J7MvkZ5xuGmp7l0F6hMJoEWjWhYsC0JCCWnUfZe4/edit?usp=sharing). That was before finding out about Mendeley, which seems like a good tool. I'm keeping the spreadsheet though as I have gotten used to it.  
+[Here](/files/2printable) is a small script of mine to ensure that an article is printable, by regenerating the pdf with images instead of text.
 
 
 ---
@@ -25,6 +27,10 @@ You can see my bibliography in bibtex format [here](/report.bib). I also maintai
 #### Embeddings
 #### Training sets
 #### Testing sets
+
+
+---
+### Code
 
 ---
 ### Miscellaneous
