@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "word embeddings 0: toolkit"
-date: 2017-06-29
+date: 2017-06-28
 ---
 
 Resources on word embeddings are plentiful, but most overlap and it can be hard to find new or meaningful content. Here is a curated list.
