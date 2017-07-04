@@ -4,17 +4,19 @@ title: "word embeddings 1: what"
 date: 2017-06-29
 ---
 
-Word embeddings, _a.k.a._ vector space models for words, are a convenient way to represent words as vectors.
+![embeddings](/files/embeddings.png)
 
-> ` dog = [1, 2, 0, ..., -4, 0] `
+Word embeddings, _a.k.a._ vector space models for words, are a convenient way to represent words as vectors. Doing so has a lot of advantages, but the first and foremost motivation is to be able to apply all the theory on linear algebra to language.
 
-They've been around since the 80s, but they've always been seen as a nice but computationally expensive trick. 
+Word vectors have been around since the 80s, but they've always been seen as a nice but computationally expensive trick. 
 
-The big idea is to learn from a corpus a certain idea of how words cooccur with other words on the basis of a certain relationship. Now comes the mandatotry quote that sums up the distributional semantics hypothesis:
-
-> _A word is characterized by the company it keeps._ -- J. Firth
+The big idea is to learn from a corpus a certain idea of how words cooccur with other words on the basis of a certain relationship. 
 
 This relationship is commonly distance, _i.e._ we're going to count a cooccurence when the two words appear at distance less than \\( k \\), where usually \\(2 \lt k \lt 10\\). Some people have tried to count based on more sophisticated relationships, like syntaxical dependencies.
+
+The underlying idea to counting cooccurences is that of distributional semantics, which can be described with a famous quote:
+
+> _A word is characterized by the company it keeps._ -- J. Firth
 
 Once we have counted all these cooccurences, we put them in a big square matrix:
 
@@ -38,4 +40,6 @@ Mikolov's two methods are called Continuous Bag Of Words (CBOW) and Skip-Gram (S
 * SG does the opposite, it tries to guess the window for a given word: `.. .. on .. ..`.
 
 He built on two papers presenting new techniques for neural networks: __hierarchical softmax__, a complex method to compute softmaxs in \\(\mathcal{O}(\log n)\\) time, and __noise contrastive estimation__, _a.k.a._ negative sampling.
+
+These two notions are well explained by S. Ruder on his [blog](http://sebastianruder.com/word-embeddings-softmax/index.html), so let's review the basics.
 

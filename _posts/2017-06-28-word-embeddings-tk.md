@@ -18,19 +18,36 @@ I also maintain a Google Spreadsheet that helps me keep my sanity, you can find 
 ---
 ### Blog posts
 
+Great articles:
 
+* Series of 3 *very* good posts by S. Ruder: 
+  * [part 1: w2v basics](http://sebastianruder.com/word-embeddings-1/)
+  * [part 2: softmax and nce](http://sebastianruder.com/word-embeddings-softmax/)
+  * [part 3: glove and overview](http://sebastianruder.com/secret-word2vec/)
+* A. Colyer and his Morning Paper series:
+  * on Word2Vec: [link](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/)
+  * on GloVe: [link](https://blog.acolyer.org/2016/04/22/glove-global-vectors-for-word-representation/)
 
----
-### Data
+Other interesting blog posts:
 
-
-#### Embeddings
-#### Training sets
-#### Testing sets
+* O'Reilly on Word2Vec with gensim and fasttext: [link](https://www.oreilly.com/learning/capturing-semantic-meanings-using-deep-learning)
+* Good post summing up the latest Yoav Goldberg papers: [link](http://ahogrammer.com/2017/03/22/why-is-word-embeddings-important-for-natural-language-processing/)
+* Good W2V presentation post, plus additional entity labelled vectors: [link](https://declara.com/content/l1xvJr5P)
+* Anything2Vec, how representation building conquers everything [link](http://nlp.yvespeirsman.be/blog/anything2vec/)
 
 
 ---
 ### Code
 
----
-### Miscellaneous
+I have found that, except for the Gensim implementation, nothing beats Tomas Mikolov's super fast, albeit messy, original C code. Hence these following implementation should be taken with a grain of salt.
+
+* Tensorflow:
+  * their official tutorial: [link](https://www.tensorflow.org/tutorials/word2vec)
+* Keras:
+  * more of a discussion than a tutorial, but good avice: [link](https://github.com/fchollet/keras/issues/853)
+* Plain python:
+  * numpy GloVe implementation: [link](https://github.com/hans/glove.py)
+  * fast W2V implementation with numba: [link](http://d10genes.github.io/blog/2016/05/03/word2vec/)
+* Theano: 
+  * with lasagne: [link](http://cgi.cs.mcgill.ca/~enewel3/posts/implementing-word2vec/)
+  * vanilla theano: [link](https://github.com/mhjabreel/word2vec_theano)
