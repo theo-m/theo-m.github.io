@@ -1,5 +1,14 @@
 body {
-    margin: 10px;
+    margin: auto;
+    display:block;
+    width: 480px;
+}
+h1 {
+    font-size: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-top: 20px;
+    /*margin-left:auto;;*/
+    /*text-align: center;*/
 }
 a {
     text-decoration: none;
@@ -8,13 +17,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 1.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
 p {
     font-size: 1em;
-    line-height: .2em;
+    line-height: 1.4em;
     color: #333;
 }
 /*footer {
@@ -23,8 +28,8 @@ p {
 }
 */
 ul.posts { 
-    margin-left: 0px;
-    padding: 0px;
+    margin: 20px;
+    padding: 20px;
     font-size: 1em;
 }
 

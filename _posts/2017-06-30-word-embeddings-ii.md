@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "word embeddings 2: tank/tank"
+title: "word embeddings 2: plant/plant"
 date: 2017-06-30
 ---
 
