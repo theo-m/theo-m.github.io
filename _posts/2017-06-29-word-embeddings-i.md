@@ -6,6 +6,8 @@ date: 2017-06-29
 
 ![embeddings](/files/embeddings.png)
 
+### The old way
+
 Word embeddings, _a.k.a._ vector space models for words, are a convenient way to represent words as vectors. Doing so has a lot of advantages, but the first and foremost motivation is to be able to apply all the theory on linear algebra to language.
 
 Word vectors have been around since the 80s, but they've always been seen as a nice but computationally expensive trick. 
@@ -28,7 +30,7 @@ Now we procede in a somewhat unoriginal manner for machine learning; we're going
 
 This process, with all its possible modificationd, is qualified as **count-based**. It is computationally prohibitive because our vocabulary size is often larger than 50k, making \\(M\\) a beast for SVD algorithms.
 
----
+### The new way
 
 In 2013 Tomas Mikolov published two papers which offered new ways to compute these word vectors. He named both of his techniques Word2Vec and released his [code](https://github.com/tmikolov/word2vec). While count-based methods would mean days or weeks of computation, Mikolov's ran in a few hours, with word embeddings of great _quality_ (a vague notion that I will talk about in a post to come).
 
