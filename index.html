@@ -2,21 +2,22 @@
 layout: home
 title: theo-m
 ---
-<div class="blurb">
+
+<div>
 
     <h1>{{ page.title }}</h1>
     
     <p>
-        Dates are in the Holocene Calendar, which might just be the Gall-Peters of calendars, thanks to this cool <a href=https://www.youtube.com/watch?v=czgOWmtGVGs>Kurzgesagt</a> video.
+        This is my blog.
     </p>
     <p>
-        If you wish to comment you can do so either on the Issue page of the <a href=https://github.com/theo-m/theo-m.github.io/issues>repository</a> or on twitter.
+        If you wish to comment you can do so either on the issues page of the <a href=https://github.com/theo-m/theo-m.github.io/issues>repository</a> or on <a href="https://twitter.com/theo_mtsr">twitter</a>.
     </p> 
 
     <ul class="posts">
-      {% for post in site.posts %}
-        <li><span style="font-family: monospace;">{{ post.date | date: "%s" | plus: 315569575679 | date: "%d %b %Y"}}:  </span> <a href="{{ post.url }}" title="{{ post.title }}" style="font-family: monospace;">{{ post.title }}</a></li>
-      {% endfor %}
+        {% for post in site.posts %}
+                <li><span style="font-family: monospace;">{{ post.date | date: "%d %b %Y"}}:  </span> <a href="{{ post.url }}" title="{{ post.title }}" style="font-family: monospace;">{{ post.title }}</a></li>
+        {% endfor %}
     </ul>
 
 </div>

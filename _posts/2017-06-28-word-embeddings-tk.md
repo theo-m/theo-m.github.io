@@ -33,13 +33,13 @@ Other interesting blog posts:
 * O'Reilly on Word2Vec with gensim and fasttext: [link](https://www.oreilly.com/learning/capturing-semantic-meanings-using-deep-learning)
 * Good post summing up the latest Yoav Goldberg papers: [link](http://ahogrammer.com/2017/03/22/why-is-word-embeddings-important-for-natural-language-processing/)
 * Good W2V presentation post, plus additional entity labelled vectors: [link](https://declara.com/content/l1xvJr5P)
-* Anything2Vec, how representation building conquers everything [link](http://nlp.yvespeirsman.be/blog/anything2vec/)
+* Anything2Vec, how representation building conquers everything: [link](http://nlp.yvespeirsman.be/blog/anything2vec/)
 
 
 ---
 ### Code
 
-I have found that, except for the Gensim implementation, nothing beats Tomas Mikolov's super fast, albeit messy, original C code. Hence these following implementation should be taken with a grain of salt.
+I have found that, except for the Gensim implementation, nothing beats Tomas Mikolov's super fast, albeit messy, original C code. Hence these following implementation should be taken for what they are: pedagogical tools.
 
 * Tensorflow:
   * their official tutorial: [link](https://www.tensorflow.org/tutorials/word2vec)
@@ -51,3 +51,4 @@ I have found that, except for the Gensim implementation, nothing beats Tomas Mik
 * Theano: 
   * with lasagne: [link](http://cgi.cs.mcgill.ca/~enewel3/posts/implementing-word2vec/)
   * vanilla theano: [link](https://github.com/mhjabreel/word2vec_theano)
+

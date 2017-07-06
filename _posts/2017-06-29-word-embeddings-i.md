@@ -30,6 +30,8 @@ Now we procede in a somewhat unoriginal manner for machine learning; we're going
 
 This process, with all its possible modificationd, is qualified as **count-based**. It is computationally prohibitive because our vocabulary size is often larger than 50k, making \\(M\\) a beast for SVD algorithms.
 
+---
+
 ### The new way
 
 In 2013 Tomas Mikolov published two papers which offered new ways to compute these word vectors. He named both of his techniques Word2Vec and released his [code](https://github.com/tmikolov/word2vec). While count-based methods would mean days or weeks of computation, Mikolov's ran in a few hours, with word embeddings of great _quality_ (a vague notion that I will talk about in a post to come).
@@ -44,4 +46,6 @@ Mikolov's two methods are called Continuous Bag Of Words (CBOW) and Skip-Gram (S
 He built on two papers presenting new techniques for neural networks: __hierarchical softmax__, a complex method to compute softmaxs in \\(\mathcal{O}(\log n)\\) time, and __noise contrastive estimation__, _a.k.a._ negative sampling.
 
 These two notions are well explained by S. Ruder on his [blog](http://sebastianruder.com/word-embeddings-softmax/index.html), so let's review the basics.
+
+
 
