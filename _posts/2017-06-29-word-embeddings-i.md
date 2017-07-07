@@ -48,6 +48,3 @@ Mikolov's two methods are called Continuous Bag Of Words (CBOW) and Skip-Gram (S
 He built on two papers presenting new techniques for neural networks: __hierarchical softmax__, a complex method to compute softmaxs in \\(\mathcal{O}(\log n)\\) time, and __noise contrastive estimation__, _a.k.a._ negative sampling.
 
 These two notions are well explained by S. Ruder on his [blog](http://sebastianruder.com/word-embeddings-softmax/index.html), so let's review the basics.
-
-
-{% bibliography %}
