@@ -1,5 +1,5 @@
 
-body {margin: auto; padding: 5em 5em 5em 5em; display: block; max-width: 480px;}
+body {margin: auto; padding: 5em 1em 5em 1em; display: block; max-width: 480px;}
 
 h1 {font-size: 1.5em; font-family:'Helvetica', 'Arial', 'Sans-Serif';}
 h2 {font-size: 1.02em; font-family:'Helvetica', 'Arial', 'Sans-Serif';}
@@ -8,9 +8,11 @@ a {text-decoration: none; color: #999;}
 a:hover {text-decoration: underline;}
 
 p {font-size: 1em; line-height: 1.4em; color: #333; text-align: justify;}
+p.meta {padding-bottom: 2em; line-height: 1.4em; color:grey; font-size:85%; font-style:italic;}
 
 ul.posts {list-style: none; margin: 2em 0 2em 0; padding: 0}
 
 hr {margin: 2em 5em 2em 5em;}
 
 pre.highlight {margin: auto; display: block;}
+img {margin-bottom: 2em;}
