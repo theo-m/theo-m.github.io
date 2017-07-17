@@ -4,3 +4,8 @@ markdown: kramdown
 kramdown: 
   input: GFM
 highlighter: rouge
+scholar:
+  style: chicago
+  source: _bibliography
+  bibliography: references.bib
+  # style: https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-author-date.csl

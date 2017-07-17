@@ -213,6 +213,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  citeproc-ruby
   github-pages
   jekyll-scholar
 
