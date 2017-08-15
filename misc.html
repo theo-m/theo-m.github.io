@@ -1,0 +1,20 @@
+---
+layout: pages
+title: misc
+---
+
+
+<p>
+    My intent is to have a blog centered around NLP. Therefore articles  that might be of little interest for people coming here to read about language are listed below.
+</p>
+
+<ul class="posts">
+    {% for post in site.misc %}
+        <li>
+            <span style="font-family: monospace;">{{ post.date | date: "%d %b %Y"}}:  </span>
+            <a href="{{ post.url }}" title="{{ post.title }}" style="font-family: monospace;">
+                {{ post.title }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
