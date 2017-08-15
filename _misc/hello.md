@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "my blog"
+title: "About"
 date: 2017-06-28
 ---
 
@@ -26,5 +26,3 @@ git add . && git commit -m 'Local build update'
 git remote add origin $giturl
 git push origin master --force
 ```
-
----
