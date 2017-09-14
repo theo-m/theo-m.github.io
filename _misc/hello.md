@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About"
+title: "Running this blog"
 date: 2017-06-28
 ---
 
