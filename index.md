@@ -14,10 +14,9 @@ If you are already somewhat familiar with this topic you can skip the first arti
 {% for post in site.posts %}
     <li>
         <span style="font-family: monospace;">
-            <!-- {{ post.date | date: "%d %b %Y"}}:   -->
-            -
+            {{ post.date | date: "%d %b %Y"}}:  
         </span>
-        <a href="{{ post.url }}" title="{{ post.title }}" style="font-family: monospace;">
+        <a href="{{ post.url }}" title="{{ post.title }}">
             {{ post.title }}
         </a>
     </li>
