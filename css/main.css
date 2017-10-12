@@ -22,6 +22,9 @@ img {
   vertical-align: middle;
 }
 
+a[href^=\#] {color: #00005b; text-decoration: none;}
+hr {margin: 3em; border: none; border-top: dashed 1px #333;}
+
 ul#links {
   list-style: none;
   margin-left: 0;
@@ -29,4 +32,6 @@ ul#links {
 }
 ul#links li {content: "-";}
 
+
+ul, ol.bibliography, div.MathJax_Display {color: #444;}
 pre.highlight {padding: 2em; white-space: pre; overflow: auto; background-color: #f4f4f4;}

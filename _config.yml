@@ -11,7 +11,7 @@ highlighter: rouge
 
 permalink: /:title.html
 
-# scholar:
-#   style: chicago
-#   source: _bibliography
-#   bibliography: references.bib
+scholar:
+  style: apa
+  source: files
+  bibliography: references.bib
