@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: main
 title: "Running this blog"
 date: 2017-06-28
 ---
 
+
 I use Github Pages with Jekyll. I followed this fine [blog post](http://jmcglone.com/guides/github-pages/) to get everything running. You can find the source code [here](https://github.com/theo-m/theo-m.github.io/tree/source).
 
-#### Update (2017-07-17)
+## Update (2017-07-17)
 
 I use this script to publish using Github Pages while using Jekyll plugins they don't allow ([Jekyll scholar](https://github.com/inukshuk/jekyll-scholar)). Download [here](/publish).
 

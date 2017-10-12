@@ -1,0 +1,32 @@
+  body {
+  max-width: 520px;
+  margin: 1em auto 1em;
+}
+
+.container {
+  padding: 2em;
+  text-align: justify;
+}
+
+h1 {color: #222; font-size: 1.5em; margin-bottom: 1em;}
+
+h2 {color: #333; font-size: 1.2em; margin-top: 2em;}
+
+p {color: #444; line-height: 1.25em;}
+
+img {
+  float: right;
+  width: 25%;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  vertical-align: middle;
+}
+
+ul#links {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0px;
+}
+ul#links li {content: "-";}
+
+pre.highlight {padding: 2em; white-space: pre; overflow: auto; background-color: #f4f4f4;}

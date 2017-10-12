@@ -9,7 +9,9 @@ kramdown:
   input: GFM
 highlighter: rouge
 
-scholar:
-  style: chicago
-  source: _bibliography
-  bibliography: references.bib
+permalink: /:title.html
+
+# scholar:
+#   style: chicago
+#   source: _bibliography
+#   bibliography: references.bib

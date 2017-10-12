@@ -1,24 +1,21 @@
 ---
-layout: bar
-title: theo-m
+layout: main
+title: Théo Matussière
 ---
 
 
-Welcome to [my](/about) blog,
+## About me
 
-I am interested in linguistics and computer science, below are articles related to these interests. Most of them are the result of a research internship done in Montreal in the Summer of 2017 on the learning of word representation.
+![my face](/files/me.png)
 
-If you are already somewhat familiar with this topic you can skip the first articles.
+My name is Théo Matussière, I graduated from the École polytechnique in France and am currently pursuing a masters degree at the ENS Cachan in optimization and computer science.
 
-<ul class="posts">
-{% for post in site.posts %}
-    <li>
-        <span style="font-family: monospace;">
-            {{ post.date | date: "%d %b %Y"}}:  
-        </span>
-        <a href="{{ post.url }}" title="{{ post.title }}">
-            {{ post.title }}
-        </a>
-    </li>
-{% endfor %}
-</ul>
+My main interests are in grounded linguistic modelling (as opposed to statistical language modelling), and as of this date (12.10.2017) I am actively looking for information regarding potential PhD tutors in Europe on this topic.
+
+
+## Links
+
+- [twitter](https://twitter.com/theo_mtsr) 
+- [mail](mailto:theo.matussiere@polytechnique.edu)
+- [blog](/blog)
+{: #links}

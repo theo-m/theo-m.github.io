@@ -1,7 +1,0 @@
-#!/bin/bash
-
-echo Use with ./2printable <file> <folder> where folder is the place where you want to keep the new pdf file 
-echo Generate pictures from pages
-pdftoppm -png -rx 300 -ry 300 $1 /tmp/$1
-echo Convert back to PDF
-convert /tmp/$1-* $2/$1
