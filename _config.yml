@@ -3,13 +3,15 @@ theme: jekyll-theme-minimal
 collections:
   misc:
     output: true
+  nlp:
+    output: true
 
 markdown: kramdown
 kramdown: 
   input: GFM
 highlighter: rouge
 
-permalink: /:title.html
+permalink: /:category/:title.html
 
 scholar:
   style: apa

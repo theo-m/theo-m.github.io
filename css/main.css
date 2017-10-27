@@ -14,23 +14,32 @@ h2 {color: #333; font-size: 1.2em; margin-top: 2em;}
 
 p {color: #444; line-height: 1.25em;}
 
-img {
-  float: right;
+p#pp img {
+  float: left;
   width: 25%;
-  margin-left: 2em;
+  margin-right: 2em;
   margin-bottom: 1em;
   vertical-align: middle;
 }
 
+img {
+  width: 90%;
+  display: block;
+  margin: 0 auto .3em;
+  border-radius: 5px;
+}
+
 a[href^=\#] {color: #00005b; text-decoration: none;}
 hr {margin: 3em; border: none; border-top: dashed 1px #333;}
+hr#smallruler {margin: 2em; border: none; border-top: dashed 1px #333;}
 
-ul#links {
+ul.nakedlist {
   list-style: none;
   margin-left: 0;
   padding-left: 0px;
+  text-align: left;
 }
-ul#links li {content: "-";}
+ul.nakedlist li:before {content: "- ";}
 
 
 ul, ol.bibliography, div.MathJax_Display {color: #444;}

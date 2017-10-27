@@ -5,8 +5,8 @@ title: Blog
 
 ## Language related articles
 
-<ul class="posts">
-	{% for post in site.posts %}
+<ul class="nakedlist">
+	{% for post in site.nlp reversed %}
 		<li>
 			<span style="font-family: monospace;">
 				{{ post.date | date: "%d %b %Y"}}:  
@@ -20,8 +20,8 @@ title: Blog
 
 ## Other articles
 
-<ul class="posts">
-	{% for post in site.misc %}
+<ul class="nakedlist">
+	{% for post in site.misc reversed %}
 		<li>
 			<span style="font-family: monospace;">
 				{{ post.date | date: "%d %b %Y"}}:  

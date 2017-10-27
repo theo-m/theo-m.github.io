@@ -3,19 +3,23 @@ layout: main
 title: Théo Matussière
 ---
 
+![mug](/files/me.png)
+{: #pp}
 
-## About me
+My name is Théo Matussière, I graduated from the École polytechnique in France and am currently pursuing a masters degree at the ENS Cachan in optimization and computer science. 
 
-![my face](/files/me.png)
+On this page you'll find contact information and a few articles on my blog --- articles that I write as often as I can and that I publish whenever satisfied, a.k.a never.
 
-My name is Théo Matussière, I graduated from the École polytechnique in France and am currently pursuing a masters degree at the ENS Cachan in optimization and computer science.
+My main interest is in computational linguistics, more precisely in grounded linguistic modelling, as opposed to statistical language modelling. Grounded linguistic modelling can be thought of the intersection of complex systems, game theory and linguistics.
 
-My main interests are in grounded linguistic modelling (as opposed to statistical language modelling), and as of this date (12.10.2017) I am actively looking for information regarding potential PhD tutors in Europe on this topic.
+---
+{: #smallruler}
 
+**2017-10:** actively looking for informations regarding potential PhD tutors in Europe on grounded linguistic modelling.  
+**2017-09:** back in France after a 5 month internship in Montréal.
 
-## Links
+---
+{: #smallruler}
 
-- [twitter](https://twitter.com/theo_mtsr) 
-- [mail](mailto:theo.matussiere@polytechnique.edu)
-- [blog](/blog)
-{: #links}
+[blog](/blog) --- [twitter](https://twitter.com/theo_mtsr) / [mail](mailto:tmatussiere+blog@gmail.com)
+{: style="text-align: center"}
