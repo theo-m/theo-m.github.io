@@ -25,13 +25,21 @@ $$
 	\end{gathered}
 $$
 
-Putting this clearly on paper makes us wonder about what exactly we expect $d$, the distance on our vocabulary, to be. While $\Vert\cdot\Vert_2^2$ is well defined as the euclidean norm for $\mathbb R^d$, it is unclear how to put a good metric on the vocabulary space.
+Putting this clearly on paper makes us wonder about what exactly we expect $d$, the distance on our vocabulary, to be. While $\Vert\cdot\Vert_2^2$ is well defined as the euclidean norm for $\mathbb R^d$, it is unclear how to put a good metric on the vocabulary space. Should `plant` be close to `flower` or to `chemical`?
 
 But such questions will be left for later inquiries; let us now see how to actually generate such vectors. In 2014, following great movements in the discipline, Baroni {% cite baroni2014don %} divided generation methods between count-based and predictive methods. This classification is based on the heuristic used to determine the _cooccurence information_ of a pair of words.
 
-## Count-based generation methods
+...
 
+---
 
+`--- 01/12/2017 update ---`
+
+This was an article I wanted to write after my internship in Montreal. It has stayed this long for 3 months now which is a probable sign that I won't ever finish it. I am leaving this preamble however since in my opinion this idea of semantic continuity is original and not adressed enough.
+
+Fortunately Sebastian Ruder does a much better work than I do and published an excellent article on his [blog](http://ruder.io/word-embeddings-2017/index.html).
+
+My own bibliography can be found on this [Zotero collection](https://www.zotero.org/theo-m/items/collectionKey/G4TF65NM), it is complementary, but not annotated.
 
 
 ---

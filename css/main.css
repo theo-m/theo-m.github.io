@@ -1,5 +1,5 @@
   body {
-  max-width: 520px;
+  max-width: 680px;
   margin: 1em auto 1em;
 }
 
@@ -29,7 +29,7 @@ img {
   border-radius: 5px;
 }
 
-a[href^=\#] {color: #00005b; text-decoration: none;}
+a[href^=\#] {text-decoration: none;}
 hr {margin: 3em; border: none; border-top: dashed 1px #333;}
 hr#smallruler {margin: 2em; border: none; border-top: dashed 1px #333;}
 
