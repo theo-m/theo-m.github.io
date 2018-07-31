@@ -15,7 +15,8 @@ My main interest is in computational linguistics, more precisely in grounded lin
 ---
 {: #smallruler}
 
-**2017-10:** actively looking for informations regarding potential PhD tutors in Europe on grounded linguistic modelling.  
+**2018-07:** research internship on conditioned dialog models at Facebook AI Research (FAIR) Paris.
+**2017-10:** actively looking for PhD tutors in Europe on grounded linguistic modelling.  
 **2017-09:** back in France after a 5 month internship in Montréal.
 
 ---
