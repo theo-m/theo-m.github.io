@@ -1,5 +1,5 @@
 ---
-title: Agent-based Language Modelling (WIP)
+title: Agent-based Language Emergence
 layout: main
 date: 2017-12-01
 ---
@@ -21,6 +21,7 @@ Cool articles to read while I write a proper article, all of them being more on 
 
 A collection of relevant articles on my Zotero account [here](https://www.zotero.org/theo-m/items/collectionKey/44EMPA7D).
 
+Hopefully I'll soon start a PhD on the matter. Excited for that!
 
 ---
 
