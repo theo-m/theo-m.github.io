@@ -1,6 +1,7 @@
 ---
 title: Blade Runner 2049
 layout: main
+date: 2017-10-19
 ---
 
 ![img](https://cdn.vox-cdn.com/uploads/chorus_asset/file/9376591/blade3.jpg)

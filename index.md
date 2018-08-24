@@ -21,6 +21,6 @@ I'm interested in language and its emergence in societies of agents. I'm an arti
 ---
 {: #smallruler}
 
-<!-- [blog](/blog)   -->
+[blog](/blog.html)  
 [twitter](https://twitter.com/theo_mtsr) / [mail](mailto:tmatussiere+blog@gmail.com)
 {: style="text-align: center"}

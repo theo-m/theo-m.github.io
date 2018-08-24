@@ -1,6 +1,7 @@
 ---
 title: Zotero
 layout: main
+date: 2017-12-01
 ---
 
 [Coolest thing](https://www.zotero.org) I've met lately; it is an open-source alternative to Mendeley, which is made by Elsevier ([b](https://www.talyarkoni.org/blog/2016/12/12/why-i-still-wont-review-for-or-publish-with-elsevier-and-think-you-shouldnt-either/)[o](https://www.techdirt.com/articles/20151103/15475732708/not-just-academics-fed-up-with-elsevier-entire-editorial-staff-resigns-en-masse-to-start-open-access-journal.shtml)[o](https://gclibrary.commons.gc.cuny.edu/2015/05/21/why-boycott/)[o](https://thedirtpsychology.org/academic-publishers-are-evil/)[o](https://lemire.me/blog/2015/05/19/putting-the-evil-academic-publishers-in-perspective/)!), that allows reference management, notes and pdfs syncing on their servers, free up to 300MB. 

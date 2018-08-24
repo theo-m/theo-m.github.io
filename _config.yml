@@ -1,10 +1,9 @@
 name: Theo Matussiere
 theme: jekyll-theme-minimal
 collections:
-  misc:
+  blog:
     output: true
-  nlp:
-    output: true
+
 
 markdown: kramdown
 kramdown: 
