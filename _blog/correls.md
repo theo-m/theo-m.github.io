@@ -4,7 +4,7 @@ layout: main
 date: 2018-08-24
 ---
 
-
+Simple experimentation to see how standard correlation indices (Spearman & Pearson) behave on the simplest possible dataset. I take three points in the $y=x$ line and play with the middle one's $y$-coordinate to see how the indices change with it. 
 
 ```python
 import numpy as np
@@ -58,22 +58,24 @@ ax2.legend()
 plt.show()
 ```
 
+Here we just show the different three-point sets we're considering.
 
-![png](/files/output_1_0.png)
+<img src="/files/output_1_0.png" alt="drawing" style="width:60%"/>
 
-
+And here the result of the experiment with the $x$ axis denoting the $y$-coordinate of the middle point. Naturally we see maximum correlation for $y=2$ since it makes the three points aligned. The right hand plot shows the behaviour of the p-values.
 
 ![png](/files/output_1_1.png)
 
-
+This is cool because it shows nicely how the Spearman correlation behaves with monotonicity: if the middle point breaks it ( $y>3$ or $y<1$ ) we go straight back to non significant correlation or p-value.
+From the above right-hand plot we see that the miminum p-value for the Pearson index we achieve is positive, so what is its value?
 
 ```python
-min(pears_p)
+min(pears_p)  # = 0.011250438775604945
 ```
 
 
+$$ \rho = \frac{\text{cov}\left( X, Y \right)}{\sigma_X \sigma_Y} $$
 
-
-    0.011250438775604945
+Why is it non-zero? Because, going back to its definition, we have a non-zero covariance!
 
 
