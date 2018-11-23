@@ -8,7 +8,7 @@ title: About me
 
 My name is Théo Matussière. I've attended the _École polytechnique_ and recently graduated from the MVA, a research master at the _ENS Cachan_.
 
-I'm interested in language emergence in societies of agents, representation learning, and in optimization in a lesser extent. Although these interests are academic in nature I've also had some experience doing consulting in the industry and enjoy these challenges.
+I'm interested in language emergence in societies of agents, representation learning, and in optimization, to a lesser extent. Although these interests are academic in nature I've also had some experience doing consulting in the industry and enjoy the challenge.  
 
 
 ---
