@@ -8,7 +8,7 @@ title: About me
 
 My name is Théo Matussière. I've attended the _École polytechnique_ and recently graduated from the MVA, a research master at the _ENS Cachan_.
 
-I'm interested in language emergence in societies of agents, representation learning, and in optimization, to a lesser extent. [Here](/files/main-ggle-translate.html) is a google translated document on interesting considerations for language emergence. It's certainly rough around the edges but it's something.
+I'm interested in language emergence in societies of agents, representation learning, and in optimization, to a lesser extent. I will not pursue a PhD, but I had laid out interesting directions for one on language emergence, [here](/files/lang-emerg/main-en.html) (original [in French](/files/lang-emerg/main-fr.html)). 
 
 In a more pragmatic setting I'm interested in building tools to make work more interesting by plugging in AI solutions in a smart way.
 I have the chance to work on this topic at [Nabla](https://nabla.com), check us out!
