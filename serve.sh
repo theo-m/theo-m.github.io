@@ -2,10 +2,9 @@
 
 cat << EOF >> ./Dockerfile
 FROM jekyll-blog-dependencies
-RUN jekyll build
 CMD jekyll serve
 EOF
 
 docker build -t localrun -f Dockerfile .
-docker run -p 4000:4000 -it localrun:latest
+docker run --publish 4000:4000 --volume "$PWD:/srv/jekyll" -it localrun:latest 
 rm -rf ./Dockerfile
