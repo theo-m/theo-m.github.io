@@ -1,5 +1,12 @@
 #!/bin/bash
 
+rm -rf ./Dockerfile
+
+cleanup () {
+  rm -rf ./Dockerfile
+}
+trap cleanup EXIT INT TERM
+
 cat << EOF >> ./Dockerfile
 FROM jekyll-blog-dependencies
 CMD jekyll serve
