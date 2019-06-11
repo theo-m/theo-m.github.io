@@ -34,6 +34,10 @@ a[href^=\#] {text-decoration: none;}
 hr {margin: 3em; border: none; border-top: dashed 1px #333;}
 hr#smallruler {margin: 2em; border: none; border-top: dashed 1px #333;}
 
+ul {
+  line-height: 1.25rem;
+}
+
 ul.nakedlist {
   list-style: none;
   margin-left: 0;

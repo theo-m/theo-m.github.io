@@ -17,8 +17,11 @@ In a more pragmatic setting I'm interested in building tools to make work more i
 
 ## Productions
 
-- 2018/11: language emergence with multi-agent reinforcement learning [in French](/files/lang-emerg/main-fr.html) or [in English (Google Translate)](/files/lang-emerg/main-en2_files/translate_c.html)
-- 2018/08: dialog eval and batch sampling (FAIR internship report) [in English](/files/dialogeval.pdf) 
+- Language emergence with multi-agent reinforcement learning (2018/11)
+  - [in French](/files/lang-emerg/main-fr.html)
+  - [in English (Google Translate)](/files/lang-emerg/main-en2_files/translate_c.html)
+- Dialog eval and batch sampling (FAIR internship report) [in English](/files/dialogeval.pdf) (2018/08)
+- I'm also keeping some very mundane stuff in this [blog](/blog).
 
 ---
 {: #smallruler}
