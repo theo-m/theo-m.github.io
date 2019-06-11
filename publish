@@ -1,5 +1,7 @@
 #!/usr/bin/zsh
 
+set -e  # stop on first error
+
 hashdate=$(date +'%H%M%S')
 giturl=$(git config --get remote.origin.url)
 
