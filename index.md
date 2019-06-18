@@ -8,7 +8,7 @@ title: About me
 
 My name is Théo Matussière. I've attended the _École polytechnique_ and recently graduated from the MVA, a research master at the _ENS Cachan_.
 
-I'm interested in language emergence in societies of agents, representation learning, and in optimization, to a lesser extent.
+I'm interested in language emergence in societies of agents, automatic dialog model evaluation, geometry in representation spaces and optimization - to a lesser extent.
 
 In a more pragmatic setting I'm interested in building tools to make work more interesting at [Nabla](https://nabla.com), check us out!
 
