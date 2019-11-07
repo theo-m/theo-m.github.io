@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Github pages with Docker</title>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/css/highlighter.css">
+  <link rel=icon href=/favicon.png>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title"> Github pages with Docker <span style="color: #b6b6b6;font-size: small"> 2019-06-11 </span> </h1>
+    <p>I’ve always found Jekyll hard to install on Ubuntu, some weird stuff with the Nokogiri package as I recall it, plus managing Ruby/Gem versions is not straightforward.</p>
+
+<p>Docker is a cool tool I’ve become used to at work, so I’ve been testing it at home.
+For this blog this gives these two scripts:</p>
+
+<ul>
+  <li>This one installs all dependencies just once (a bit long)</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+
+<span class="nb">cat</span> <span class="o">&lt;&lt;</span> <span class="no">EOF</span><span class="sh"> &gt;&gt; ./Dockerfile-dependencies
+FROM jekyll/jekyll
+COPY . /srv/jekyll/
+RUN bundle install
+</span><span class="no">EOF
+
+</span>docker build <span class="nt">-t</span> jekyll-blog-dependencies <span class="nb">.</span>
+rm <span class="nt">-rf</span> ./Dockerfile-dependencies
+</code></pre></div></div>
+
+<ul>
+  <li>This one serves the content, it’s actually pretty cool to mount the thing like this because you still get the file watcher thing.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+
+<span class="nb">cat</span> <span class="o">&lt;&lt;</span> <span class="no">EOF</span><span class="sh"> &gt;&gt; ./Dockerfile
+FROM jekyll-blog-dependencies
+CMD jekyll serve
+</span><span class="no">EOF
+
+</span>docker build <span class="nt">-t</span> localrun <span class="nt">-f</span> Dockerfile <span class="nb">.</span>
+docker run <span class="nt">-d</span> <span class="nt">--publish</span> 4000:4000 <span class="nt">--volume</span> <span class="s2">"</span><span class="nv">$PWD</span><span class="s2">:/srv/jekyll"</span> <span class="nt">-it</span> localrun:latest 
+rm <span class="nt">-rf</span> ./Dockerfile
+</code></pre></div></div>
+
+  </div>
+</body>
+
+<footer><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["$$","$$"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script></footer>
+
+</html>
