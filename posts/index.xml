@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Théo Matussière</title>
-    <link>theo-m.github.io/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Théo Matussière</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Jun 2019 09:45:14 +0200</lastBuildDate>
     
-	<atom:link href="theo-m.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -16,10 +16,10 @@
     
     <item>
       <title>Joining Nabla</title>
-      <link>theo-m.github.io/posts/nabla/</link>
+      <link>/posts/nabla/</link>
       <pubDate>Sun, 02 Jun 2019 09:45:14 +0200</pubDate>
       
-      <guid>theo-m.github.io/posts/nabla/</guid>
+      <guid>/posts/nabla/</guid>
       <description>Met Alexandre Le Brun and Martin Raison during my internship at FAIR during summer &amp;lsquo;18. They left the office to start Nabla about a month after I&amp;rsquo;d arrived.
 I&amp;rsquo;ve always had an interest in building things and looked for opportunities to be closer to the &amp;ldquo;real world&amp;rdquo;. So while I was writing my PhD proposal I started part-time there to be part of the adventure and try to help where I could.</description>
     </item>
@@ -28,10 +28,10 @@ I&amp;rsquo;ve always had an interest in building things and looked for opportun
     
     <item>
       <title>Emerging communications</title>
-      <link>theo-m.github.io/posts/phd/</link>
+      <link>/posts/phd/</link>
       <pubDate>Mon, 12 Nov 2018 09:46:48 +0200</pubDate>
       
-      <guid>theo-m.github.io/posts/phd/</guid>
+      <guid>/posts/phd/</guid>
       <description>tldr: wrote a PhD proposition, did not do the PhD, the document is here
 During the internship the PhD plan was growing more and more mature. So when it ended in the last days of August we moved on to write a formal thesis proposition.
 That process was both exhilerating and stressful. Exhilerating because I basically made it into a shopping list of the topics I wanted to explore. Stressful because we were building a PhD between the Facebook AI labs and the Institut Jean-Nicod, a language philosophy lab at ENS, Paris.</description>
