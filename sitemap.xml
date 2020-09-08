@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://theo-m.github.io/</loc>
-    <lastmod>2019-06-02T09:45:14+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://theo-m.github.io/posts/nabla/</loc>
     <lastmod>2019-06-02T09:45:14+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://theo-m.github.io/posts/</loc>
+    <lastmod>2019-06-02T09:45:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://theo-m.github.io/</loc>
     <lastmod>2019-06-02T09:45:14+02:00</lastmod>
   </url>
   
