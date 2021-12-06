@@ -17,7 +17,7 @@ set -Eex
 yarn build
 cp -r out/ "/tmp/${BUIDL}"
 git checkout matussie.re
-cp -r "/tmp/${BUIDL}/out/*" .
+cp -r "/tmp/${BUIDL}/*" .
 git add -A
 git commit -m "update from nextjs"
 git push
