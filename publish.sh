@@ -18,7 +18,7 @@ yarn build
 cp -r out/ "/tmp/${BUIDL}"
 git checkout matussie.re
 git rm -rf *
-cp -r "/tmp/${BUIDL}/*" .
+cp -r "/tmp/${BUIDL}/out/*" .
 git add -A
 git commit -m "update from nextjs"
 git push
