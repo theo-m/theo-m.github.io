@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply w-screen p-4 text-gray-700 font-serif flex flex-col justify-center items-center text-xl;
+}
+
+h1 {
+  @apply font-black text-3xl font-sans mb-4 text-white italic p-2 pl-4 transform -skew-x-12 skew-y-6 sm:skew-y-2 bg-gradient-to-r from-primary to-white rounded-l-full;
+}
+
+ol {
+  @apply list-disc;
+}
+
+ul {
+  @apply list-decimal;
+}
+
+li {
+  @apply ml-4;
+}
+
+strong {
+  @apply text-white bg-primary bg-opacity-80 px-1;
+}
