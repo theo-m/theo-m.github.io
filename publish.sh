@@ -18,7 +18,7 @@ yarn build
 cp -r out/ "/tmp/${BUIDL}"
 git checkout matussie.re
 cp -r "/tmp/${BUIDL}/" .
-touch _next/.nojekyll
+touch .nojekyll
 git add -A
 git commit -m "update from nextjs"
 git push
