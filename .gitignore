@@ -1,0 +1,6 @@
+.idea/
+out/
+node_modules/
+.next/
+build/
+
