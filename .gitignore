@@ -1,8 +1,11 @@
 .idea/
+main.iml
+
 .next/
 node_modules/
 
 build/
 out/
 _next
+
 
