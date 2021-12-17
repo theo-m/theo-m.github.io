@@ -4,11 +4,11 @@
 
 
 body {
-  @apply w-screen p-4 text-gray-700 font-serif flex flex-col justify-center items-center text-xl;
+  @apply w-screen p-4 text-gray-700 bg-gray-50 font-serif flex flex-col justify-center items-center text-xl;
 }
 
 h1 {
-  @apply font-black text-3xl font-sans mb-4 text-white italic p-2 pl-4 transform -skew-x-12 skew-y-6 sm:skew-y-2 bg-gradient-to-r from-primary to-white rounded-l-full;
+  @apply font-black font-serif text-5xl text-primary mb-4;
 }
 
 ol {
@@ -24,5 +24,9 @@ li {
 }
 
 strong {
-  @apply text-white bg-primary bg-opacity-80 px-1;
+  @apply font-bold text-black;
+}
+
+a {
+  @apply font-bold text-primary hover:underline;
 }
