@@ -24,7 +24,7 @@ git clone git@github.com:theo-m/theo-m.github.io.git --branch matussie.re --sing
 cp -r "${CWD}"/out/* .
 touch .nojekyll
 
-git add -A && git commit -m "new build"
+git add -A && git commit -m "new build: $(git log -1 --pretty='%h: %B')"
 git push
 
 popd
