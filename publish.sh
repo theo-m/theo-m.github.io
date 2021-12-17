@@ -11,6 +11,7 @@ fi
 
 BUIDL=$(date +%s)
 DIR="/tmp/theo-m-blog-build-${BUIDL}"
+MSG=$(git log -1 --pretty='%h: %B')
 CWD=$PWD
 set -Eex
 
@@ -24,7 +25,7 @@ git clone git@github.com:theo-m/theo-m.github.io.git --branch matussie.re --sing
 cp -r "${CWD}"/out/* .
 touch .nojekyll
 
-git add -A && git commit -m "new build: $(git log -1 --pretty='%h: %B')"
+git add -A && git commit -m "new build: ${MSG}"
 git push
 
 popd
