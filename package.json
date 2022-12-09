@@ -1,24 +1,20 @@
 {
-  "name": "perso",
-  "version": "0.1.0",
-  "private": true,
+  "name": "theo-m.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:theo-m/theo-m.github.io.git",
+  "author": "theo <theo@matussie.re>",
+  "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export"
+    "build": "tsx main.tsx",
+    "lint": "prettier -w main.tsx"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@mdx-js/loader": "^1.5.1",
-    "@mdx-js/react": "^1.6.18",
-    "@next/mdx": "^9.1.1",
-    "@types/react": "17.0.37",
-    "autoprefixer": "^10.4.0",
-    "next": "12.0.4",
-    "postcss": "^8.4.4",
-    "prettier": "^2.5.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "tailwindcss": "^2.2.19",
-    "typescript": "4.5.2"
+    "prettier": "^2.8.1",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "nano-jsx": "^0.0.32"
   }
 }

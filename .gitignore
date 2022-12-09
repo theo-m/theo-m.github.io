@@ -5,6 +5,7 @@ main.iml
 node_modules/
 
 build/
+dist/
 out/
 _next
 
