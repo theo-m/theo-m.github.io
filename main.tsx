@@ -167,10 +167,17 @@ const html = `
         font-family: Inter, Arial, sans-serif;
         font-size: 16px;
         font-weight: 400;
-        padding: 2rem;
+        padding: 16px;
         color: hsl(0, 0%, 30%);
         max-width: 48rem;
     }
+    
+    @media (max-width: 500px) {
+        body {
+            padding: 8px
+        }
+    }
+    
     h1 {
         color: hsl(0, 0%, 20%);
         font-weight: 600;
