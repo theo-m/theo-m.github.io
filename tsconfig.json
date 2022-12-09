@@ -21,6 +21,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
+  "include": ["main.tsx"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
