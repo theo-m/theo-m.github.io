@@ -5,6 +5,9 @@
   "repository": "git@github.com:theo-m/theo-m.github.io.git",
   "author": "theo <theo@matussie.re>",
   "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  }, 
   "scripts": {
     "build": "tsx main.tsx",
     "lint": "prettier -w main.tsx"
