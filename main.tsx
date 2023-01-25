@@ -89,11 +89,10 @@ function App() {
         </AtPlace>
 
         <li style={{ marginTop: "16px" }}>
-          building <a href="https://talkiewalkie.app">scorrilo.com</a> as a side
-          project
+          building <a href="https://swype.so">swype.so</a> as a side project
         </li>
-        <AtPlace place="scorrilo">build editor with a product designer</AtPlace>
-        <AtPlace place="scorrilo">working on distribution</AtPlace>
+        <AtPlace place="swype">build editor with a product designer</AtPlace>
+        <AtPlace place="swype">working on distribution</AtPlace>
 
         <li style={{ marginTop: "16px" }}>
           paying rent as a full-stack freelancer @
@@ -120,14 +119,14 @@ function App() {
         due to diverging interests.
       </p>
 
-      <h2>About scorrilo.com</h2>
+      <h2>About swype.so</h2>
       <p>
-        Work on Scorrilo started in early 2022 but was done around a different
+        Work on Swype started in early 2022 but was done around a different
         narrative. After working the summer as a freelancer I decided to revive
         the core technology around a simpler premise.
         <br />
-        Scorrilo is a side-project that I'm running as a solo-founder - with
-        help from a generous product designer friend.
+        Swype is a side-project that I'm running as a solo-founder - with help
+        from a generous product designer friend.
       </p>
 
       <hr />
