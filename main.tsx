@@ -1,7 +1,6 @@
 import * as fs from "fs";
 import Nano from "nano-jsx";
 import { Helmet } from "nano-jsx";
-import { useState } from "nano-jsx/lib/hooks";
 
 function Code({ code }: { code: string }) {
   return (
@@ -21,7 +20,9 @@ function Code({ code }: { code: string }) {
 function AtPlace({ place, children }: { place: string; children: string }) {
   return (
     <li>
-      <span style={{ color: "hsl(0, 0%, 80%)" }}>@{place}: </span>
+      <span style={{ color: "hsl(200, 0%, 30%)", fontWeight: 600 }}>
+        @{place}:{" "}
+      </span>
       {children}
     </li>
   );
@@ -162,13 +163,18 @@ const html = `
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <style>
+    @font-face {
+        font-family: Pally;    
+        src: url("/Pally-Bold.woff2") format("woff2");
+    }
+    
     body {
         font-family: Inter, Arial, sans-serif;
         font-size: 16px;
         font-weight: 400;
-        padding: 16px;
+        padding: 32px;
         color: hsl(0, 0%, 30%);
-        max-width: 48rem;
+        max-width: 40rem;
     }
     
     @media (max-width: 500px) {
@@ -178,14 +184,17 @@ const html = `
     }
     
     h1 {
-        color: hsl(0, 0%, 20%);
-        font-weight: 600;
-        font-size: 24px;
+        color: hsl(200, 10%, 12%);
+        font-weight: 700;
+        font-size: 48px;
+        letter-spacing: 2px;
+        font-family: Pally, serif;
     }
     h2 {
         margin-top: 32px;
+        font-family: Pally, serif;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 24px;
         color: hsl(0, 0%, 20%);
     }
     a {
