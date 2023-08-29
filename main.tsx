@@ -96,10 +96,12 @@ function App() {
         <AtPlace place="swype">working on distribution</AtPlace>
 
         <li style={{ marginTop: "16px" }}>
-          paying rent as a full-stack freelancer @
+          paid rent as a full-stack freelancer @
           <a href="https://zefir.fr">zefir.fr</a>, @
-          <a href="https://ubble.ai">ubble.ai</a>
+          <a href="https://ubble.ai">ubble.ai</a> (2021-2022)
         </li>
+
+        <li style={{ marginTop: "16px" }}>joined <a href="https://ecair.eco">ecair.eco</a> (2023)</li>
       </ul>
 
       <h2>About talkiewalkie.app</h2>
@@ -128,6 +130,21 @@ function App() {
         <br />
         Swype is a side-project that I'm running as a solo-founder - with help
         from a generous product designer friend.
+      </p>
+
+      <h2>About ecair.eco</h2>
+      <p>
+        I've had the rare chance to align my values and my work and I joined
+        Victor Jolly and Maxime Bensadoun to work on Ecair.eco in July of 2023.
+        <br />
+        We're building the consumer company for the ecological transition of
+        residential units in France, taking the full vertical: we're hiring
+        construction workers and providing them with processes and tools (where
+        I come in!) to help them deliver.
+        <br />
+        <br />
+        I'm hiring two persons to help me build this vision! Check out{" "}
+        <a href="https://ecair.eco/jobs/product-engineer">our jobs page</a>
       </p>
 
       <hr />

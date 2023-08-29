@@ -5,19 +5,18 @@
   "repository": "git@github.com:theo-m/theo-m.github.io.git",
   "author": "theo <theo@matussie.re>",
   "license": "MIT",
-  "engines": {
-    "node": "16.x"
-  },
   "scripts": {
     "build": "tsx main.tsx",
     "dev": "tsx --watch main.tsx",
-    "lint": "prettier -w main.tsx"
+    "lint": "prettier -w main.tsx",
+    "deploy": "yarn build && wrangler pages deploy ./dist/ --project-name theo-m-github-io"
   },
   "devDependencies": {
     "@types/node": "^18.13.0",
     "prettier": "^2.8.4",
     "tsx": "^3.12.3",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "wrangler": "^3.6.0"
   },
   "dependencies": {
     "nano-jsx": "^0.0.36"
